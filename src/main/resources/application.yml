@@ -1,0 +1,55 @@
+#server:
+#  port: '8081'
+#
+#####################################################################################
+#
+#spring:
+#  profiles: dev #create a database for it...
+#  datasource:
+#    driver-class-name: org.h2.Driver
+#    username: sa
+#    url: jdbc:h2:mem:dcbapp
+#    password: password
+#  h2:
+#    console:
+#      enabled: 'true'
+#  jpa:
+#    database-platform: org.hibernate.dialect.H2Dialect
+#welcome:
+#  message: Welcome to SpringBoot Tutorial!!!
+#
+########################################################################################
+#
+#  spring:
+#    profiles: prod #create a database for it...
+#    datasource:
+#      driver-class-name: org.h2.Driver
+#      username: sa
+#      url: jdbc:h2:mem:dcbapp
+#      password: password
+#    h2:
+#      console:
+#        enabled: 'true'
+#    jpa:
+#      database-platform: org.hibernate.dialect.H2Dialect
+#  welcome:
+#    message: Welcome to SpringBoot Tutorial!!!
+#
+###########################################################################################
+#
+#    spring:
+#      profiles: qa #create a database for it....
+#      datasource:
+#        driver-class-name: org.h2.Driver
+#        username: sa
+#        url: jdbc:h2:mem:dcbapp
+#        password: password
+#      h2:
+#        console:
+#          enabled: 'true'
+#      jpa:
+#        database-platform: org.hibernate.dialect.H2Dialect
+#    welcome:
+#      message: Welcome to SpringBoot Tutorial!!!
+#
+#  #indentation is very important in your .yml file!!!
